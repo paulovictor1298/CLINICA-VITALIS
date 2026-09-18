@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clínica Vitalis — Cuidado completo para sua saúde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <span class="logo">Vitalis</span>
+    <nav class="main-nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <h1>Cuidar de você, com tempo e atenção de verdade.</h1>
+      <p class="hero-sub">A Vitalis reúne atendimento médico, exames e orientação nutricional em um só lugar — pensado para caber na sua rotina, não o contrário.</p>
+      <a class="btn-primary" href="#contato">Marcar uma conversa</a>
+    </div>
+    <div class="hero-figure">
+      <img src="https://picsum.photos/seed/vitalis-hero/700/820" alt="Recepção acolhedora da Clínica Vitalis">
+      <div class="hero-badge">
+        <strong>+18</strong>
+        <span>anos cuidando de famílias na região</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="servicos" id="servicos">
+  <div class="wrap">
+    <h2>O que oferecemos</h2>
+    <p class="section-lead">Quatro frentes de cuidado, uma só equipe acompanhando o seu histórico.</p>
+
+    <div class="servicos-grid">
+      <article class="servico-card destaque">
+        <img src="https://picsum.photos/seed/atendimento-medico/560/400" alt="Consulta médica em andamento no consultório">
+        <div class="servico-texto">
+          <h3>Atendimento médico</h3>
+          <p>Consultas em clínica geral e especialidades, com horários flexíveis e prontuário acompanhado ao longo do tempo — sem repetir sua história a cada visita.</p>
+        </div>
+      </article>
+
+      <article class="servico-card">
+        <img src="https://picsum.photos/seed/exames-lab/560/400" alt="Equipamento de exame laboratorial e de imagem">
+        <div class="servico-texto">
+          <h3>Exames laboratoriais e de imagem</h3>
+          <p>Coleta e resultados no mesmo espaço da consulta, com laudos disponíveis online e integrados ao seu prontuário.</p>
+        </div>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-texto">
+          <h3>Aconselhamento nutricional</h3>
+          <p>Planos alimentares construídos junto com você, revisados em cada retorno conforme seus resultados evoluem.</p>
+        </div>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-texto">
+          <h3>Outros procedimentos de cuidado</h3>
+          <p>Vacinação, curativos, pequenos procedimentos ambulatoriais e encaminhamentos, tudo coordenado por uma única equipe.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="equipe" id="equipe">
+  <div class="wrap">
+    <h2>Quem cuida de você</h2>
+    <p class="section-lead">Uma equipe pequena o suficiente para lembrar do seu nome.</p>
+
+    <div class="equipe-grid">
+      <article class="pessoa-card">
+        <img src="https://i.pravatar.cc/320?img=47" alt="Foto de Dra. Camila Andrade">
+        <h3>Dra. Camila Andrade</h3>
+        <p class="cargo">Clínica Geral</p>
+      </article>
+
+      <article class="pessoa-card">
+        <img src="https://i.pravatar.cc/320?img=13" alt="Foto de Dr. Rafael Nogueira">
+        <h3>Dr. Rafael Nogueira</h3>
+        <p class="cargo">Radiologia</p>
+      </article>
+
+      <article class="pessoa-card">
+        <img src="https://i.pravatar.cc/320?img=32" alt="Foto de Juliana Prado">
+        <h3>Juliana Prado</h3>
+        <p class="cargo">Nutricionista</p>
+      </article>
+
+      <article class="pessoa-card">
+        <img src="https://i.pravatar.cc/320?img=68" alt="Foto de Marcos Vieira">
+        <h3>Marcos Vieira</h3>
+        <p class="cargo">Enfermagem</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="wrap contato-inner">
+    <div class="contato-texto">
+      <h2>Vamos conversar</h2>
+      <p class="section-lead">Deixe seus dados que nossa recepção retorna o contato para confirmar o melhor horário.</p>
+    </div>
+
+    <form class="form-contato" action="#" method="get">
+      <div class="campo">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+      </div>
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+      </div>
+      <div class="campo-linha">
+        <div class="campo">
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required>
+        </div>
+        <div class="campo">
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" name="estado" placeholder="UF" maxlength="2" required>
+        </div>
+      </div>
+      <button type="submit" class="btn-primary">Enviar contato</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Clínica Vitalis — projeto acadêmico, sem funcionamento real.</span>
+  </div>
+</footer>
+
+</body>
+</html>
